@@ -15,3 +15,7 @@ Put `data.json` in `public` directory - that's where slides are going to be load
 1. `yarn install` (or `npm install`)
 2. `yarn start` (or `npm start`)
 3. Go to `localhost:3000` in your web browser.
+
+## License
+
+See [LICENSE.md](LICENSE.md).
