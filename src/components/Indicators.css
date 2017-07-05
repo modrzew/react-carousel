@@ -1,0 +1,6 @@
+.indicators {
+  z-index: 1;
+  position: absolute;
+  padding-top: 0;
+  right: 1em;
+}

@@ -1,0 +1,24 @@
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.carousel-slide a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-slide a .text-container {
+  position: absolute;
+  left: 2em;
+  bottom: 1em;
+  right: 2em;
+}

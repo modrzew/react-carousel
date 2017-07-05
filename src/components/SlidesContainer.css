@@ -1,0 +1,20 @@
+.slides-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-change-enter {
+  transform: translate(100%);
+}
+.slide-change-enter.slide-change-enter-active {
+  transform: translate(0%);
+  transition: transform 500ms ease-in-out;
+}
+.slide-change-leave {
+  transform: translate(0%);
+}
+.slide-change-leave.slide-change-leave-active {
+  transform: translate(-100%);
+  transition: transform 500ms ease-in-out;
+}

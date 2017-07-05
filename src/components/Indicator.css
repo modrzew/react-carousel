@@ -1,0 +1,18 @@
+.indicator {
+  display: inline-block;
+  border: solid 1px #ccc;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0 0.25em;
+  cursor: pointer;
+  box-shadow: 0 0 5px #666;
+}
+
+.indicator.active {
+  background: #ccc;
+}
+
+.indicator:hover {
+  background: #999;
+}
