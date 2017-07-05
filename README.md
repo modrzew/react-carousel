@@ -2,6 +2,10 @@
 
 Very simple carousel component utilizing React for displaying the component contents, and Redux for managing the state.
 
+## Screenshot
+
+![screenshot](docs/screenshot.png)
+
 ## Configuration
 
 Put `data.json` in `public` directory - that's where slides are going to be loaded from.
